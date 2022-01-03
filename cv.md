@@ -2,15 +2,19 @@
 # Volodymyr Volvakov
 ### Frontend Developer
 
+***
+
 ### Contact Information
-**Location:** Donetsk, Ukraine
-**Phone:** +38-071-901-77-55
-**Viber, Telegram:** +38-050-901-77-55
-**WhatsApp:** +38-071-901-77-55
-**E-mail:** dr.volvakov@gmail.com
-**LinkedIn:** [Volodymyr Volvakov](https://www.linkedin.com/in/vladimir-volvakov-7243411a3/)
-**Twitter:** [@VladVolvakov](https://twitter.com/VladVolvakov) 
+**Location:** Donetsk, Ukraine  
+**Phone:** +38-071-901-77-55  
+**Viber, Telegram:** +38-050-901-77-55  
+**WhatsApp:** +38-071-901-77-55  
+**E-mail:** dr.volvakov@gmail.com  
+**LinkedIn:** [Volodymyr Volvakov](https://www.linkedin.com/in/vladimir-volvakov-7243411a3/)  
+**Twitter:** [@VladVolvakov](https://twitter.com/VladVolvakov)  
 **GitHub:** [Volodymyr Volvakov](https://github.com/VladimirVolvakov)
+
+***
 
 ### About me
 Since 2006 I work as a practicing dentist (entrepreneurship). Since 2008 I have also been working as a lecturer at Donetsk National Medical University (DNMU). From 2014 to 2019 I held the position of deputy dean of the Faculty of Dentistry of DNMU. So my entire professional career to date has been associated with medical care, workflow management, team work and teaching other people in my specialty. This experience of work was a great school for building my soft skills.
@@ -25,6 +29,8 @@ I’m very fond of web development because it makes feel my ability of creating 
 
 I believe that my love and ability to learn and gain new skills, my life experience and soft skills will lead me through the path of becoming a successful web developereveloper.
 
+***
+
 ### Skills
 * HTML5
 * CSS3
@@ -32,6 +38,8 @@ I believe that my love and ability to learn and gain new skills, my life experie
 * React
 * Git
 * VS Code
+
+***
 
 ### Code examples
 **Task 1:** 
@@ -66,6 +74,8 @@ function arrayDiff(a, b) {
 }
 ```
 
+***
+
 ### My Experience
 **Education**
 * 2001-2006 - Donetsk State Medical University, Faculty of Dentistry
@@ -84,6 +94,8 @@ function arrayDiff(a, b) {
 **Projects:**
 * [**Gallery of cars** (HTML, CSS, JavaScript)](http://github.com/VladimirVolvakov/gallery-of-cards)
 * [**Feedback App** (HTML, CSS, JavaScript, React)](http://github.com/VladimirVolvakov/feedbackUI)
+
+***
 
 ### Languages:
 * Russian - native speaker
