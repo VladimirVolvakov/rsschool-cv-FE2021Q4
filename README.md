@@ -1,2 +1,3 @@
 # rsschool-cv
-http://vladimirvolvakov.github.io/rsschool-cv/cv
+Some changes have been made
+https://vladimirvolvakov.github.io/rsschool-cv/
