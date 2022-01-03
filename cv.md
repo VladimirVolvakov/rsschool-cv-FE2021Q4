@@ -1,5 +1,8 @@
-![My photo](/assets/img1.jpg "My photo")
+![My photo](./assets/img1.jpg "My photo")  
 # Volodymyr Volvakov
+
+***
+
 ### Frontend Developer
 
 ***
