@@ -1,12 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Frontend Developer Volodymyr Volvakov</title>
+    <link rel="stylesheet" href="/rsschool-cv/css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li><a href="#contact-info">Contacts</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#skills">My skills</a></li>
+              <li><a href="#code-examples">Code examples</a></li>
+              <li><a href="#experience">My experience</a></li>
+              <li><a href="#languages">Languages</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div id="contact-info">
+          <div class="intro">
+            <img
+                src="./assets/img/img1.jpg"
+                alt="My photo"
+                height="135"
+                width="125"
+            />
+            <div class="intro-text">
+                <h1>Volodymyr Volvakov</h1>
+                <h2>Frontend Developer</h2>
+            </div>
+          </div>
+        
+        <hr>
+
+        <div>
+          <h2>Contact Information</h2>
+          <p>
+            <b>Location:</b> Donetsk, Ukraine
+            <br />
+            <b>Phone:</b> +38-071-901-77-55
+            <br />
+            <b>Viber, Telegram:</b> +38-050-901-77-55
+            <br />
+            <b>WhatsApp:</b> +38-071-901-77-55
+            <br />
+            <b>E-mail:</b>
+            <a href="mailto:dr.volvakov@gmail.com">dr.volvakov@gmail.com</a>
+            <br />
+            <b>LinkedIn:</b>
+            <a href="https://www.linkedin.com/in/vladimir-volvakov-7243411a3/"
+              >Volodymyr Volvakov</a
+            >
+            <br />
+            <b>Twitter:</b>
+            <a href="https://twitter.com/VladVolvakov">@VladVolvakov</a>
+            <br />
+            <b>GitHub:</b>
+            <a href="https://github.com/VladimirVolvakov">Volodymyr Volvakov</a>
+          </p>
+        </div>
+        </div>
+
+        <hr>
+
+        <div id="about">
+          <h2>About me</h2>
+
+          <p>
+            Since 2006 I work as a practicing dentist (entrepreneurship). Since
+            2008 I have also been working as a lecturer at Donetsk National
+            Medical University (DNMU). From 2014 to 2019 I held the position of
+            deputy dean of the Faculty of Dentistry of DNMU. So my entire
+            professional career to date has been associated with solving problems of
+            my clients, workflow management, team work and teaching other people in my
+            specialty. This experience of work was a great school for building
+            my soft skills.
+          </p>
+
+          <p>
+            First my touch with web-development was in 2008. Then it was a hobby
+            for switching my brain after work. Then I mastered HTML3 and even
+            made a primitive website for my dental practice.
+          </p>
+
+          <p>
+            About 1,5 years ago during COVID-19 lockdown I remembered my youth hobby and
+            felt interest to modern web development. Then I decided to pass a
+            course in JavaScript & Full stack development. It was not so easy
+            for me because I had a lot of unanswered questions then but I’ve
+            become really passionate about it. During this course, I realized
+            that the frontend is of most interest to me, but a good web
+            developer should be able to use the full stack. So I decided to
+            master frontend development first and backend then (after I will
+            feel complete confidence about my frontend development skills).
+          </p>
+
+          <p>
+            That's why I began to learn it at my afterwork time: I read
+            tutorials and official documentation, watch videos on different
+            Youtube channels, passed a couple of courses and try to write code
+            every day.
+          </p>
+
+          <p>
+            I’m very fond of web development because it makes feel my ability of
+            creating something new. This is a profession that holds the future
+            and it provides great possibilities for personal and professional
+            growth.
+          </p>
+
+          <p>
+            I believe that my love and ability to learn and gain new skills, my
+            life experience and soft skills will lead me through the path of
+            becoming a successful web developer.
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="skills">
+          <h2>My Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git (GitHub)</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+
+        <hr>
+
+        <div id="code-examples">
+          <h2>Code examples</h2>
+
+          <h3>Example 1</h3>
+          <p>
+            <b>Task:</b>
+            <br />
+            If we list all the natural numbers below 10 that are multiples of 3
+            or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Finish
+            the solution so that it returns the sum of all the multiples of 3 or
+            5 below the number passed in. Additionally, if the number is
+            negative, return 0 (for languages that do have them. Note: If the
+            number is a multiple of both 3 and 5, only count it once.
+          </p>
+          <p>
+            <b>Code:</b>
+            <br />
+            <code>
+              function solution(number){<br />
+              let numsArray = []<br />
+              <br />
+              for (i = 1; i < number; i++) {<br />
+              numsArray.push(i)<br />
+              }<br />
+              <br />
+              return numsArray<br />
+              .filter(item => ((item % 3 === 0) || (item % 5 === 0)))<br />
+              .reduce((acc, rec) => acc + rec, 0) <br />
+              }
+            </code>
+          </p>
+
+          <h3>Example 2</h3>
+          <p>
+            <b>Task:</b>
+            <br />
+            Your goal in this kata is to implement a difference function, which
+            subtracts one list from another and returns the result. It should
+            remove all values from list a, which are present in list b keeping
+            their order.
+            <br />
+            <code>arrayDiff([1,2],[1]) == [2];</code>
+            <br />
+            If a value is present in b, all of its occurrences must be removed
+            from the other:
+            <br />
+            <code>arrayDiff([1,2,2,2,3],[2]) == [1,3];</code>
+          </p>
+          <p>
+            <b>Code:</b>
+            <br />
+            <code>
+              function arrayDiff(a, b) { <br />
+                return a.filter(item => !b.includes(item)) <br />
+              }
+            </code>
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="experience">
+          <h2>My Experience</h2>
+
+          <div>
+            <h3>Education</h3>
+            <ul>
+              <li>
+                2001-2006 - Donetsk State Medical University, Faculty of
+                Dentistry
+              </li>
+              <li>
+                2006-2008 - International University of Finance (Donetsk,
+                Ukraine)
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Courses</h3>
+            <ul>
+              <li>
+                <a href="http://www.freecodecamp.org"> FreeCodeCamp </a>
+                - "Basic HTML and HTML5", "Basic CSS", "Applied Visual Design",
+                "React"
+              </li>
+
+              <li>
+                <a href="http://ru.code-basics.com"> Code-Basics </a>
+                - "HTML for beginners", "CSS fo beginners"
+              </li>
+
+              <li>
+                <a href="http://learn.javascript.ru"> Learn.javascript.ru </a>
+                - The Modern JavaScript Tutorial
+              </li>
+
+              <li>
+                Harvard University -
+                <a
+                  href="http://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+                >
+                  CS50 lectures
+                </a>
+              </li>
+
+              <li>
+                Academind -
+                <a href="http://www.youtube.com/watch?v=Dorf8i6lCuk&t=6310s">
+                  "React Crash Course for Beginners 2021"
+                </a>
+              </li>
+
+              <li>
+                Brad Traversy -
+                <a href="http://www.udemy.com/course/react-front-to-back-2022/">
+                  "React Front To Back 2022"
+                </a>
+                <em>(in progress)</em>
+                + lectures from
+                <a href="http://www.youtube.com/c/TraversyMedia">
+                  Youtube channel
+                </a>
+              </li>
+
+              <li>
+                <a href="http://skillcrucial.com"> Skillcrucial </a>
+                - Full Stack Developer Course
+              </li>
+
+              <li>
+                Vladilen Minin -
+                <a href="http://webformyself.com/reactjs/">
+                  "ReactJS from Zero to Hero"
+                </a>
+                + lectures from
+                <a href="http://www.youtube.com/c/VladilenMinin">
+                  Youtube channel
+                </a>
+              </li>
+
+              <li>
+                IT-KAMASUTRA -
+                <a
+                  href="http://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8"
+                >
+                  "ReactJS - Samurai Way 1.0"
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>My Projects:</h3>
+            <ul>
+              <li>
+                <a href="http://github.com/VladimirVolvakov/gallery-of-cards">
+                  Gallery of cars
+                </a>
+                <em>(HTML, CSS, JavaScript)</em>
+              </li>
+
+              <li>
+                <a href="http://github.com/VladimirVolvakov/feedbackUI">
+                  Feedback App
+                </a>
+                <em>(HTML, CSS, JavaScript, React)</em>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+
+        <div id="languages">
+          <h2>Languages</h2>
+
+          <ul>
+            <li>Russian - native speaker</li>
+            <li>Ukrainian - native speaker</li>
+            <li>English - B2</li>
+            <li>German - A2</li>
+          </ul>
+
+          <p>Practiced in English and German while traveling abroad.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
