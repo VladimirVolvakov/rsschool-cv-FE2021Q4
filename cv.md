@@ -1,4 +1,4 @@
-![My photo](/assets/img_1.jpg)
+![My photo](/assets/img1.jpg "My photo")
 # Volodymyr Volvakov
 ### Frontend Developer
 
